@@ -12,6 +12,10 @@ ctrl.like = (req, res) => {
     
 };
 
+ctrl.comment = (req, res) => {
+    
+};
+
 ctrl.remove = (req, res) => {
     
 };

@@ -1,4 +1,4 @@
-const express = require("espress");
+const express = require("express");
 const router = express.Router();
 
 const home = require("../controllers/home");
@@ -11,6 +11,8 @@ module.exports = app => {
     router.post("/images/:image_id/like", image.like);
     router.post("/images/:image_id/comment", image.comment);
     router.delete("/images/:image_id", image.remove);
-    
+
     app.use(router);
 };
+
+//VIEWS -Template engine and views *** PARA LA DESCRIPCIÓN DEL PRÓXIMO COMMIT
