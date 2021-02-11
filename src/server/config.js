@@ -21,7 +21,7 @@ module.exports = app => {
         layoutsDir: path.join(app.get("views"), "layouts"),
         extname: ".hbs",
         helpers: require("./helpers")
-    }) )
+    }))
     app.set("view engine", ".hbs");
     
     //Middlewares
